@@ -1,0 +1,67 @@
+h1, h2, h3
+{ 
+	color : rgb(21,96,189);
+}
+
+.envoye /* Bouton 'envoyé' */
+{
+	color : white; /* Couleur de la police */
+	border: 3px rgb(21,96,189) solid; /* épaisseur du bloc */
+	border-radius: 8px;  /* Arrondi du bloc */
+	background-color: rgb(21,96,189); /* Couleur de fond du bloc */
+}
+
+
+
+.filtrer
+{
+	float: right;
+	margin-right: 250px;
+}
+
+.logo
+{
+	display : flex;
+	justify-content : center; /* Photo au milieu de la page */
+	height : 100px; /* Marge au dessus de la photo */
+}
+
+.lien
+{
+	display : flex;
+	justify-content: flex-end;  /* Les liens sont alignés à la fin de la ligne */
+	height : 10px;  /* Marge au dessus des liens */
+	margin-right: 40px;	/* Marge au bout de la page à droite */
+}
+
+a
+{
+	color: rgb(21,96,189);
+	margin-right: 40px;   /* Marge entre les liens */
+}
+
+.Pseudo
+{
+	color : rgb(21,96,189);
+	display: flex;
+	justify-content : flex-end;
+	margin-right: 40px;
+}
+
+
+.deco
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.message
+{
+	padding-left: 60px;
+}
+
+
+
+
+
